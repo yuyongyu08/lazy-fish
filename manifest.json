@@ -15,5 +15,11 @@
         "https://developer.chrome.com/docs/webstore/*"
       ]
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/fish.gif", "assets/style.css"],
+      "matches": ["https://yuyongyu08.github.io/*"]
+    }
   ]
 }
