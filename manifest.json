@@ -4,7 +4,7 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
+    "default_popup": "popup/popup.html",
     "default_icon": "icon.png"
   },
   "icons": {
@@ -17,7 +17,7 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://yuyongyu08.github.io/*",
+        "https://1yuyongyu08.github.io/*",
         "https://developer.chrome.com/docs/webstore/*"
       ]
     }
@@ -25,7 +25,7 @@
   "web_accessible_resources": [
     {
       "resources": ["images/fish.gif", "assets/style.css"],
-      "matches": ["https://yuyongyu08.github.io/*"]
+      "matches": ["https://1yuyongyu08.github.io/*"]
     }
   ]
 }
